@@ -1,4 +1,4 @@
-// Inserting a key on a B-tree in Java
+// Deleting a key on a B-tree in Java
 
 import java.util.Stack;
 
