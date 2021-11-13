@@ -2,29 +2,29 @@
 // Binary Tree in Java
 
 // Node creation
-class Node {
+class Node1 {
     int key;
-    Node left, right;
+    Node1 left, right;
 
-    public Node(int item) {
+    public Node1(int item) {
         key = item;
         left = right = null;
     }
 }
 
-class BinaryTree {
-    Node root;
+class BinaryTree1 {
+    Node1 root;
 
-    BinaryTree(int key) {
-        root = new Node(key);
+    BinaryTree1(int key) {
+        root = new Node1(key);
     }
 
-    BinaryTree() {
+    BinaryTree1() {
         root = null;
     }
 
     // Traverse Inorder
-    public void traverseInOrder(Node node) {
+    public void traverseInOrder(Node1 node) {
         if (node != null) {
             traverseInOrder(node.left);
             System.out.print(" " + node.key);
@@ -33,7 +33,7 @@ class BinaryTree {
     }
 
     // Traverse Postorder
-    public void traversePostOrder(Node node) {
+    public void traversePostOrder(Node1 node) {
         if (node != null) {
             traversePostOrder(node.left);
             traversePostOrder(node.right);
@@ -42,7 +42,7 @@ class BinaryTree {
     }
 
     // Traverse Preorder
-    public void traversePreOrder(Node node) {
+    public void traversePreOrder(Node1 node) {
         if (node != null) {
             System.out.print(" " + node.key);
             traversePreOrder(node.left);
@@ -51,12 +51,12 @@ class BinaryTree {
     }
 
     public static void main(String[] args) {
-        BinaryTree tree = new BinaryTree();
+        BinaryTree1 tree = new BinaryTree1();
 
-        tree.root = new Node(1);
-        tree.root.left = new Node(2);
-        tree.root.right = new Node(3);
-        tree.root.left.left = new Node(4);
+        tree.root = new Node1(1);
+        tree.root.left = new Node1(2);
+        tree.root.right = new Node1(3);
+        tree.root.left.left = new Node1(4);
 
         System.out.print("Pre order Traversal: ");
         tree.traversePreOrder(tree.root);
