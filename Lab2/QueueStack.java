@@ -2,7 +2,7 @@
 
 package queuestack;
 
-import stack.lab1.1;
+import stack.stack;
 
 public class QueueStack {
 
