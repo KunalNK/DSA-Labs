@@ -2,7 +2,7 @@
 
 import java.util.Stack;
 
-public class BTree {
+public class BTree1 {
 
     private int T;
 
@@ -22,7 +22,7 @@ public class BTree {
         };
     }
 
-    public BTree(int t) {
+    public BTree1(int t) {
         T = t;
         root = new Node();
         root.n = 0;
@@ -355,7 +355,7 @@ public class BTree {
     }
 
     public static void main(String[] args) {
-        BTree b = new BTree(3);
+        BTree1 b = new BTree1(3);
         b.Insert(8);
         b.Insert(9);
         b.Insert(10);

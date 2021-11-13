@@ -1,4 +1,4 @@
-// Bubble sort in Java
+// Optimized Bubble sort in Java
 
 import java.util.Arrays;
 
@@ -9,12 +9,15 @@ class Main {
         int size = array.length;
 
         // loop to access each array element
-        for (int i = 0; i < size - 1; i++)
+        for (int i = 0; i < (size - 1); i++) {
 
-            // loop to compare array elements
-            for (int j = 0; j < size - i - 1; j++)
+            // check if swapping occurs
+            boolean swapped = false;
 
-                // compare two adjacent elements
+            // loop to compare adjacent elements
+            for (int j = 0; j < (size - i - 1); j++) {
+
+                // compare two array elements
                 // change > to < to sort in descending order
                 if (array[j] > array[j + 1]) {
 
@@ -23,14 +26,23 @@ class Main {
                     int temp = array[j];
                     array[j] = array[j + 1];
                     array[j + 1] = temp;
+
+                    swapped = true;
                 }
+            }
+            // no swapping means the array is already sorted
+            // so no need for further comparison
+            if (!swapped)
+                break;
+
+        }
     }
 
     public static void main(String args[]) {
 
         int[] data = { -2, 45, 0, 11, -9 };
 
-        // call method using class name
+        // call method using the class name
         Main.bubbleSort(data);
 
         System.out.println("Sorted Array in Ascending Order:");

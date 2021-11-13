@@ -1,5 +1,5 @@
 
-// Binary Search in Java
+// Binary Search using Recursive method in Java
 
 class BinarySearch {
     int binarySearch(int array[], int x, int low, int high) {

@@ -1,5 +1,5 @@
 
-// Binary Search in Java
+// Binary Search using Iterative method in Java
 
 class BinarySearch {
     int binarySearch(int array[], int x, int low, int high) {

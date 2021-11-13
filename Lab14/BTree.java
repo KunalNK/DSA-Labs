@@ -1,4 +1,4 @@
-// Inserting a key on a B-tree in Java 
+// Inserting a key on a B-tree in Java
 
 public class BTree {
 
