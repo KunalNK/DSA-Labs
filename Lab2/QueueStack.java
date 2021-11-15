@@ -7,7 +7,7 @@ import java.util.Stack;
  * => You can also use the stack that we built in stacks section<br/>
  * => both of the above approach would work fine with very minute modifications.
  */
-public class Queue {
+class Queue {
     // this is the main stack which we will use as queue
     Stack<Integer> queueStack = new Stack<>();
     // rev stack
