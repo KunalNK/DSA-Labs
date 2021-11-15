@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Lab1" isTestSource="false" packagePrefix="stack" />
+      <sourceFolder url="file://$MODULE_DIR$/Lab10" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lab11" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lab12" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lab13" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lab14" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lab15" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lab16" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lab17" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lab18" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lab19" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lab2" isTestSource="false" packagePrefix="circularqueue" />
+      <sourceFolder url="file://$MODULE_DIR$/Lab20" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lab21" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lab22" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lab23" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lab24" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lab25" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lab26" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lab3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lab4" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lab5" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lab6" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lab7" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lab8" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lab9" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
